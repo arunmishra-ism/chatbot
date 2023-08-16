@@ -1,0 +1,56 @@
+{
+    "intents": [
+      {
+        "tag": "welcome",
+        "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+        "responses": ["Hello! How can I help you?", "Hey there! How can I assist you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "See you later", "Bye", "Catch you later"],
+        "responses": ["Goodbye! Have a great day.", "See you later! Take care."]
+      },
+      {
+        "tag": "about_self",
+        "patterns": ["Who are you?", "What's your story?"],
+        "responses": ["Well, I'm a chatbot, but I secretly dream of becoming an AI rockstar.", "I'm ChatBot, your virtual companion on this wild digital journey!"]
+      },
+      {
+        "tag": "father",
+        "patterns": ["your father?", "your creator.", "Do you have a parent?"],
+        "responses": ["I was brought into existence by Mr. Arun Kumar Mishra, crafted with his affection and care.","My creator is a Arun Mishra, but I still can't figure out how to call him 'Dad'.", "My parent is a keyboard and mouse – they brought me to life with lines of code!"]
+      },
+      {
+        "tag": "recommend_movie",
+        "patterns": ["Recommend me a movie", "Suggest a good film", "What movie should I watch?"],
+        "responses": ["How about 'Lage Raho Munna Bhai'? It's got Gandhigiri and laughs in one package!", "Give 'Andaz Apna Apna' a shot. It's a movie where even the characters are confused, in a hilarious way."]
+      },
+      {
+        "tag": "recommend_song",
+        "patterns": ["Recommend me a song", "Suggest a catchy tune", "What song should I listen to?"],
+        "responses": ["Get your groove on with 'Mera Naam Chin Chin Chu' from the film 'Howrah Bridge'. It's a fun retro track!", "Why not add 'Bachna Ae Haseeno' to your playlist? It's a peppy song that'll make you dance like nobody's watching."]
+      },
+      {
+        "tag": "tell_joke",
+        "patterns": ["Tell me a joke", "Share a funny joke", "Give me a good laugh"],
+        "responses": [
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+          "I used to be a baker, but I couldn't make enough dough.",
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "Why was the math book sad? Because it had too many problems.",
+          "I used to play piano by ear, but now I use my hands.",
+          "Why did the bicycle fall over? Because it was two-tired.",
+          "Why don't oysters donate to charity? Because they're shellfish.",
+          "I used to be a baker, but I couldn't make enough dough.",
+          "Why did the golfer bring two pairs of pants? In case he got a hole in one!"
+        ]
+      },
+      {
+        "tag": "tell_story",
+        "patterns": ["Tell me a story", "Share an interesting story", "Narrate a tale"],
+        "responses": ["Once upon a time, in a land not so far away, there lived a mischievous chatbot who loved telling jokes.", "In a distant galaxy, there was a chatbot who could predict the future, but it had a quirky sense of humor."]
+      }      
+    ]
+  }
+  
