@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: chatbot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    runtime: python
+    region: oregon
+    plan: free
+    pythonVersion: 3.10.12
