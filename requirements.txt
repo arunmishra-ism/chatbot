@@ -1,6 +1,7 @@
-flask
-numpy
-keras
+Flask
 tensorflow
+keras
 nltk
-gunicorn
+requests
+wikipedia
+wolframalpha
